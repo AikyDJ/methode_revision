@@ -13,7 +13,7 @@ session_start();
  * @return array Filtered questions
  */
 function getQuestionsByTopicForResult($topic) {
-    global $chapter1_questions, $chapter2_questions, $chapter3_questions, $chapter4_questions, $question;
+    global $chapter1_questions, $chapter2_questions, $chapter3_questions, $chapter4_questions, $question_unix, $question, $question2;
     
     switch ($topic) {
         case '1':
@@ -24,6 +24,10 @@ function getQuestionsByTopicForResult($topic) {
             return $chapter3_questions;
         case '4':
             return $chapter4_questions;
+        case '5':
+            return $question_unix;
+        case '6':
+            return $question2;
         default:
             return $question;
     }
