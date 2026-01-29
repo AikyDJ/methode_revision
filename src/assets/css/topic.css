@@ -1,0 +1,61 @@
+body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .start-container {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+        .quiz-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .quiz-title h1 {
+            color: #333;
+            font-weight: bold;
+        }
+        .quiz-title p {
+            color: #6c757d;
+        }
+        .form-label {
+            font-weight: 600;
+            color: #333;
+        }
+        .form-select, .form-check {
+            margin-bottom: 15px;
+        }
+        .option-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .option-card h6 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .btn-start {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn-start:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        .form-check-input:checked {
+            background-color: #667eea;
+            border-color: #667eea;
+        }
